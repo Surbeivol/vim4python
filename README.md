@@ -27,3 +27,17 @@ open a new terminal and launch vim
 ``` sh
 vim mynewfile.py
 ``` 
+
+## Usage
+
+For a full description of the functionality of the pluggins 
+visit the pluging's github
+
+Some usefull highlights:
+
+* Ctrl+p then type the file you are looking for in current working directory
+* :NERDTreeToggle opens the tree directory. Press ? for help
+* :vsp nameoffile to open a vertical split when opening nameoffile
+* :sp nameoffile to open a horizontal split when opening nameoffile
+* Ctrl+h,j,k,l to move to the splits located in the left,down,up, and right side 
+* az: to fold unfold functions code similar to what you can do in an IDE

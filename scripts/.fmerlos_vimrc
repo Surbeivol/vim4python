@@ -12,3 +12,8 @@ au BufNewFile,BufRead *.py
     " Enable folding (use az to fold unfold)
     set foldmethod=indent
     set foldlevel=99
+    "split navigations: (use ctrl+J to move to the split below and so on) 
+    nnoremap <C-J> <C-W><C-J>
+    nnoremap <C-K> <C-W><C-K>
+    nnoremap <C-L> <C-W><C-L>
+    nnoremap <C-H> <C-W><C-H>
