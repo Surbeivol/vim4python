@@ -21,6 +21,7 @@ cd ..
 # Syntax Highlight
 git clone https://github.com/vim-syntastic/syntastic.git 
 # PEP 8 checker
+pip3 install flake8
 git clone https://github.com/nvie/vim-flake8.git
 # NERDTree to show folder tree in the left part
 git clone https://github.com/scrooloose/nerdtree.git

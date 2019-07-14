@@ -1,19 +1,19 @@
-execute pathogen#infect()
+execute pathogen#infect() 
+set tabstop=4
+set shiftwidth=4
+set textwidth=79
+set laststatus=2
+set hlsearch
 au BufNewFile,BufRead *.py
-    \| set tabstop=4
-    \| set softtabstop=4
-    \| set shiftwidth=4
-    \| set textwidth=79
-    \| set expandtab
+    \  set expandtab
     \| set autoindent
     \| set fileformat=unix
-    \| set enconding=utf-8
+    \| set encoding=utf-8 
     \| set number
-    " Enable folding (use az to fold unfold)
-    set foldmethod=indent
-    set foldlevel=99
-    "split navigations: (use ctrl+J to move to the split below and so on) 
-    nnoremap <C-J> <C-W><C-J>
-    nnoremap <C-K> <C-W><C-K>
-    nnoremap <C-L> <C-W><C-L>
-    nnoremap <C-H> <C-W><C-H>
+" Enable folding (use az to fold unfold)
+    \| set foldmethod=indent
+    \| set foldlevel=99
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
