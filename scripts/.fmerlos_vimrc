@@ -1,0 +1,14 @@
+execute pathogen#infect()
+au BufNewFile,BufRead *.py
+    \| set tabstop=4
+    \| set softtabstop=4
+    \| set shiftwidth=4
+    \| set textwidth=79
+    \| set expandtab
+    \| set autoindent
+    \| set fileformat=unix
+    \| set enconding=utf-8
+    \| set number
+    " Enable folding (use az to fold unfold)
+    set foldmethod=indent
+    set foldlevel=99
